@@ -1,11 +1,68 @@
-* {
-  box-sizing: border-box;
+body{
+  width: 850px;
+  margin: 0 auto;
+  background-color: black;
 }
-body {
-  margin: 0;
-  background-color: slategrey;
+
+main{
+  width: 850px;
+  height: 450px;
+  background: url('space-photo.jpeg');
+  background-size: 100% auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 20px 20px 0px;
 }
+
 h1{
   font-family: 'Unbounded', cursive;
   font: weight 700px;
+  font-size: 50pt;
+  color: white;
+  padding: 10pt;
+}
+
+section{
+  display: flex;
+  height: 324px;
+  justify-content: space-between;
+  background-color: lightslategray;
+  font-family: 'Roboto Mono', monospace;
+  margin-bottom: 20px;
+}
+
+article{
+  width: 270px;
+  height: 324px;
+  background-color: lightslategray;
+  display: flex-column;
+}
+
+h3{
+  margin: 20px;
+}
+
+div:not(div.message, div.name){
+  margin: 20px;
+  font-size: 13px;
+}
+
+textarea{
+  margin-left: 20px;
+}
+
+.btn{
+  display: flex;
+  margin-left: 20px;
+}
+
+div.name{
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+div.message{
+  margin-left: 20px;
+  font-size: 13px;
 }
